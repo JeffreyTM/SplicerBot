@@ -18,6 +18,6 @@ Some stuff here is a WIP. I'm still trying to figure out how best to store the m
 
 -add (message id, video link, audio link): Edits the previous message created and adds the splice with the video and audio links. 
 
--reset (message id, arg): Resets the entire list of splices, used when someone creates a faulty add.
+-reset (message id, arg): Resets the entire list of splices, used when someone creates a faulty add. The parameter 'arg' can be used to edit the message to include everything except the faulty add.
 
 
