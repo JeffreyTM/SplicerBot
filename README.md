@@ -11,9 +11,13 @@ This bot will not work when installing from Github, as some commands are tied to
 
 # Commands
 Some stuff here is a WIP. I'm still trying to figure out how best to store the message id so it doesn't have to be included in commands, and I want to replace -reset with -delete.
+
 -setup: Sets up the initial message, introducing the Splicing Hall of Fame.
+
 -id (message id): Creates a message that displays the format for adding splices and gives the user the message id, which is also used for adding splices.
+
 -add (message id, video link, audio link): Edits the previous message created and adds the splice with the video and audio links. 
-reset (message id, arg): Resets the entire list of splices, used when someone creates a faulty add.
+
+-reset (message id, arg): Resets the entire list of splices, used when someone creates a faulty add.
 
 
